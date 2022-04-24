@@ -1,25 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>NOTE TAKING PAGE</title>
+	<title>Resume</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/44c44821b1.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
-        <div id="side-section"></div>
-        <div id="main-body">
-            <div id="title">
-                <input type="text" id="textbox" placeholder="Type the title">
+        <nav id="navigation">
+            <div id="nav-links">
+                
+                <a href="#intro" class="a">
+                    <i class="fa-solid fa-house"></i>
+                    HOME
+                </a>
+                <a href="#section" class="a">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Qualifications
+                </a>
+                <a href="#skills-section" class="a">
+                    <i class="fa-solid fa-code"></i>
+                    Skills 
+                </a>
+                <a href="#inter-skills-section" class="a">
+                    <i class="fa-solid fa-book"></i>
+                    Interpersonal skills
+                </a>
+                <a href="#inter-skills-section" class="a">
+                    <i class="fa-solid fa-address-book"></i>
+                    Contact Me
+                </a>
             </div>
-            <div id="btn-grp">
-                <div class="btn" id="add-note">Add note</div>
+        </nav>
+
+        <div id="intro">
+            <div id="hi">
+                I'm Kiran Devadiga.
+            </div>
+            <div id="desc">
+               Front-end Web Developer
             </div>
         </div>
-    </div>
-    <script src="script.js"></script>
-</body>
+<!--------------PERSONAL INFO SECTION-------------------------->
+<section id="info-section">
+        <div id="info">
+            <h2>About ME</h2>
+            <p>My name is <b>Kiran Devadiga</b>.<br> I live in <b>Mumbai</b>.<br>I am currently pursuing <b>Information Technology Engineering</b> from <b>DJ Sanghvi College of Engineering.</b><br>My hobbies are reading and drawing.</p>
+        </div>
+</section>
+<!--------------PERSONAL INFO SECTION-------------------------->
 
+
+<!-----------------QUALIFICATIONS SECTION---------------------->
+<section id="section">
+    <div id="Qualifications">
+        <h1>Qualifications:</h1>
+        <span class="style">UNIVERSITY</span> : DJ SANGHVI COLLEGE OF ENGINEERING(PURSUING)
+        <br>
+        <span class="style">JUNIOR COLLEGE</span>: SHAILENDRA EDUCATION SOCIETY
+        <br>
+        <span class="style">SCHOOL</span>: SHAILDENDRA EDUCATION SOCIETY
+    </div>
+</section>
+
+<section id="skills-section">
+
+    <div id="skills">
+        <h2>SKILLS AND PROJECTS : </h2>
+		<p>
+            <ul>
+				<li>I have learnt <b>C</b> and <b>C++</b>. I also know HTML,CSS and basic Javascript</li>
+				<li><a href="https://kiran755.github.io/kiran_portfolio.github.io/" class="a">This is my portfolio which I designed using HTML,CSS and Javascript</a></li>
+                <li><a href="https://kiran755.github.io/AlarmClock.github.io/" class="a">This is the time showing alarm clock which I made using html css and Javascript</a></li>
+			</ul>
+		</p>
+    </div>
+		
+</section>
+
+	<section id="inter-skills-section">
+        <div id="inter-skills">
+		    <h2>INTERPERSONAL SKILLS : </h2>
+            <ul>
+                <li>I am a hard-working, passionate person who also has a collaborative nature.</li>
+                <li><b>Linguistic Proficiency</b>:Hindi, English, Marathi and Kannada</li>
+            </ul>
+        </div>
+        
+	</section> 
+<footer>
+    <div id="madeby">
+        <h2>Kiran Devadiga &copy;</h2>
+        <div id="icons">
+                <a href="https://www.instagram.com/kiran_devadiga02/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="mailto:kirandevadiga441@gmail.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="mailto:kirandevadiga441@gmail.com"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="mailto:kirandevadiga441@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+</footer>
+</div>
+</body>
 </html>
